@@ -80,6 +80,9 @@
 	<build>
 		<plugins>
 			<plugin>
+				<!-- Configure site-maven-plugin to deploy to your maven repo.
+				ref: http://stackoverflow.com/questions/14013644/hosting-a-maven-repository-on-github 
+				-->
 				<groupId>com.github.github</groupId>
 				<artifactId>site-maven-plugin</artifactId>
 				<version>0.12</version>
